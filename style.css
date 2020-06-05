@@ -1,67 +1,50 @@
-body{
-    
-}
 
-#principal{
-    max-width: 1100px auto;
-    
-    
-    
-}
-
-#principal main{
-    margin: 80px auto; 
+header {
     text-align: center;
-    
 }
 
-#principal form{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    border-radius: 8px; 
-    margin: 20px;
-    justify-content: space-evenly;
-    
-     
+header img {
+    margin-top: 50px;
+    width: 100px;
+    height: 100px;
 }
 
-
-#principal form .pt1{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin-left: 470px;
-    
+#principal form {
+    background-color: white; 
+    justify-content: space-evenly;   
 }
 
-#principal form .pt2{
+#principal form .pt1 {
     display: flex;
     flex-direction: column;
-    width: 20%;
-    margin-left: 530px;
+    align-items: center;
+}
+
+#principal form .pt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    
 }
 
-#principal form .pt1 label{
+#principal form .pt1 label {
     margin: 14px;
     font-weight: bold;
     margin-right: 50px;
     
 }
 
-#principal form .pt1 input{
-    background-color: rgb(237, 253, 237);
-    border: 1px solid black
+#principal form .pt1 input {
+    border: 1px solid black;
     border-radius: 8px;
     height: 22px;
-    
+    width: 350px;
 }
 
-button{
+button {
     margin-top: 36px;
     height: 44px;
     background-color: rgb(166, 228, 105);
     font-weight: bold;
-
+    width: 250px;
 }
